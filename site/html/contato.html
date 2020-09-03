@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contato</title>
+	<style>
+		body {
+			background-color: rgba(0, 0, 255, 0.342)
+	         }
+	</style>
+</head>
+<body>
+	<header>
+		<span><strong>Melhor site de receita do bairro</span></strong> <br/>
+		<span>By:Felps</span>
+	</header>
+	
+	<nav>
+		<ul id="menu">
+			<li><a href="index.html" title="Página Inicial">Home</a></li>
+			<li><a href="receita.html" title="A Receita">Receita</a></li>
+			<li><a href="video.html" title="Videos">Video</a></li>
+			<li><a href="contato.html" title="contato">Contate nós</a></li>
+		</ul>	
+	</nav>
+	
+	<section>
+		<form action="imagens/cadastro.jpg" method="">
+		
+			<input type="hidden" id="identificador" name="identificador" value="67" />
+		
+			<fieldset>
+				<legend>Cadastro</legend>
+				<label for="nome">Nome:</label>
+				<input type="text" name="Nome" id="nome" />
+				<br />
+				<p> </p>
+				<label for="email">E-mail:</label>
+				<input type="text" name="Email" id="email" />
+				<p> </p>
+				<br />
+				<label for="datanascimento">Data Nasc:</label>
+				<input type="text" name="datanascimento" id="datanascimento" />
+				<p> </p>
+				<br />
+				<label for="senha">Senha:</label>			
+				<input type="password" name="senha" id="senha" />
+				<p> </p>
+				<br />
+				<label for="sexo">Sexo:</label>
+				<input type="radio" name="sexo" value="F" id="Feminino" /><label for="sexoFeminino">Feminino</label>
+				<input type="radio" name="sexo" value="M" id="Masculino" /><label for="sexoMasculino">Masculino</label>
+				<p> </p>
+				<br />
+				<label for="contato">Contato:</label>
+				<input type="checkbox" name="telefone" id="telefone" /><label for="telefone">Telefone</label>
+				<input type="checkbox" name="email" id="email" /><label for="email">E-mail</label>
+				<p> </p>
+				<br />
+				<label for="foto">Foto de perfil:</label>
+				<input type="file" name="foto" id="foto" />	
+				<p> </p>
+				<br />
+				<label for="descricaoArquivo">Quem sou eu?:</label>
+				<textarea name="descricaoArquivo" cols="90" rows="2" id="descricaoArquivo"></textarea>
+				<p> </p>
+				<br />
+				<label for="interesse">Interesse:</label>
+				<select name="interesse" id="interesse">
+					<option value="Cozinhar">Cozinhar</option>
+					<option value="Enfeitar">Decorar pratos</option>
+					<option value="Experimentar todos tipos de comida">Experimentar todos tipos de comida</option>
+				</select>
+
+				<br />			
+				<input name="btnEnvio" type="submit" value="Enviar" />			
+				
+				&nbsp;			
+				<input name="btnReset" type="reset" value="Limpar" />
+				
+			</fieldset>
+		</form>
+	</section>
+
+	<footer>
+		Esse site é propriedade da Disney©
+	</footer>	
+</body>
+
+</html>
