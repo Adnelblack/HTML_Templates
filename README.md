@@ -1,1 +1,1 @@
-# Kurbin
+# Este é o meu repositorio pessoal, decidi deixar-lo publico pois em breve adicionarei meu projetos da faculdade aqui, e estarei aberto a modificações nos meus codigos.  Atualmente estou aprendendo outras linguagens de programação, conheço apenas python, e quero aprender ainda mais.
