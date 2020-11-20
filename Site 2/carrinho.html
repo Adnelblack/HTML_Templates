@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+	<link rel="stylesheet" href="estilo.css">  
+	<script src="script.js"></script>  
+</head>
+
+
+<body>
+
+	<script>
+		document.getElementById("background").innerHTML = background();
+	  </script>
+	<header>
+		<nav>  
+			<ul>
+				<li><a href="carrinho.html">Carrinho</a>					
+				<li><a href="produtos.html">Pratos</a>
+			</ul>
+		</nav>
+	</header>
+   
+	<section id="conteudo">
+		<main role="main">
+		
+
+			<div id="prato"> </div>
+<div>Total: <span id="total"></span> </div>
+
+<script>
+	document.getElementById("carrinho").innerHTML = carrinho();
+</script>
+
+<button type="button" onclick=" localStorage.clear(); location.reload();"> Limpar carrinho </button>
+	</section>
+	<footer>
+		<h2>
+			DIGITE ALGO AQUI NO FOOTER!
+		</h2>
+	</footer>
+
+
+</body>
+
+</html>

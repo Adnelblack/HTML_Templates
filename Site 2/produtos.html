@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+	<link rel="stylesheet" href="estilo.css"> 
+	<script src="script.js"></script>  
+</head>
+
+
+<body>
+
+	<script>
+		document.getElementById("background").innerHTML = background();
+	  </script>
+
+	<header>
+		<nav>  
+			<ul>
+				<li><a href="carrinho.html">Carrinho</a>					
+			    <li><a href="produtos.html">Pratos</a>
+			</ul>
+		</nav>
+	</header>
+   
+	<section id="conteudo">
+		<main role="main">
+
+			<div center>
+				<aside>
+				<img src="imagens/gratinadodeberinjela.jpg" alt="">
+				<br>Lasanha de Beringela: <strong>R$ 16,40</strong>
+				<input type="hidden" value="1" id="qtd5">
+				<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Lasanha de Beringela', document.getElementById('qtd5').value, '16.4', 5)"> Comprar </button>
+				</aside>
+			</div>
+
+			<br>
+			
+			<div>
+				<img src="imagens/macarraorecheado.jpg" alt="">
+				<br>Macarrão recheado: <strong>R$18,40</strong><br>
+				<input type="hidden" value = "1" id="qtd2">
+				<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Macarrão Recheado', document.getElementById('qtd2').value, '18.4', 2)"> Comprar </button>
+			</div>
+			
+			<br>
+
+			<div>
+				<aside>
+				<img src="imagens/tortadepalmito.jpg" alt="">
+				<br>Torta Chique: <strong>R$ 19,90</strong>
+				<input type="hidden" value="1" id="qtd1">
+				<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Torta de palmito', document.getElementById('qtd1').value, '19.9', 1)"> Comprar </button>
+				</aside>
+			</div>
+
+			<br>
+			
+			<div>
+				<img src="imagens/burguer.jpg" alt="">
+				<br>Hamburguer: <strong> R$ 8,90</strong><br>
+				<input type = "hidden" value="1" id="qtd3">
+				<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Hamburguer', document.getElementById('qtd3').value, '8.90', 3)"> Comprar </button>
+			</div>
+
+			<br>
+			
+			<div>
+				<aside>
+				<img src="imagens/vegetariano.jpg" alt="">
+				<br>Almoço Vegetariano: <strong>R$ 10,00</strong>
+				<input type="hidden" value="1" id="qtd6">
+				<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Almoço Vegetariano', document.getElementById('qtd6').value, '10.0', 6)"> Comprar </button>
+				</aside>
+			</div>
+
+			<br>
+
+			<div>
+				
+				<img src="imagens/esfiha.jpg" alt="">
+				<br>12 Esfihas de carne + 2 bonus: <strong>R$ 13,90</strong><br>
+				<input type="hidden" value="1" id="qtd4">
+				<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Esfiha', document.getElementById('qtd4').value, '13.9', 4)"> Comprar </button>
+				
+			</div>
+					
+			<script>
+				document.getElementById("carrinho").innerHTML = carrinho();
+			</script>
+			
+			<article>
+				<p> Seja bem-vindo a nossa loja de encomenda culinaria!, receba seu produto sem muita demora!, <strike>não damos reembolso caso sua comida não chegue</strike></p>
+			</article>
+			
+		</main>
+	</section>
+	<footer>
+		<h2>
+			DIGITE ALGO AQUI NO FOOTER!
+		</h2>
+	</footer>
+
+
+</body>
+
+</html>
