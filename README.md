@@ -5,3 +5,4 @@ deb http://kali.download/kali/ kali-rolling non-free
 deb http://http.kali.org/kali kali-last-snapshot main non-free contrib
 deb http://http.kali.org/kali kali-experimental main non-free contrib
 deb-src http://kali.download/kali/ kali-rolling main non-free contrib
+kali sources
